@@ -26,7 +26,6 @@ body {
     border-radius: 2px;
     background-color: saddlebrown;
     border: none;
-    color: purple;
     text-align: center;
     font-size: 28px;
     padding: 20px;
@@ -40,7 +39,7 @@ body {
     display: inline-block;
     position: relative;
     transition: 0.5s;
-    color: purple;
+    
 }
 .button span:after {
     content: '»';
@@ -49,16 +48,20 @@ body {
     top: 0;
     right: -20px;
     transition: 0.5s;
-    color: purple;
+    
 }
 .button:hover span {
     padding-right: 25px;
-    color: purple;
+    
 }
 .button:hover span:after {
     opacity: 1;
     right: 0;
-    color: purple;
+    
+}
+#btncol{
+    color: black;
+    background-color: purple;
 }
 
 
